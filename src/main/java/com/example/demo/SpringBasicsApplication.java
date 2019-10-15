@@ -12,8 +12,7 @@ public class SpringBasicsApplication {
 		System.out.println("Hello World!!");
 		System.out.println("My first Spring Boot program!!");
 		
-		Thread thread = new Thread(() -> System.out.println("Hello World inside thread!!!!"));
-		thread.run();
+		System.out.println("Spring Application started ....");
 	}
 
 }
